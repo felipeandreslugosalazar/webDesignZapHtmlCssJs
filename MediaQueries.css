@@ -485,16 +485,16 @@
 
 @media only screen and (min-width:991px) {
     .up_triangle_deco, .down_triangle_deco {
-        /* display: none; */
+        display: none;
     }
     .hamburguer_menu {
-        /* display: none; */
+        display: none;
     }
     .mobileNav {
-        /* display: none; */
+        display: none;
     }
     .display_none {
-        /* display: none; */
+        display: none;
     }
 }
 

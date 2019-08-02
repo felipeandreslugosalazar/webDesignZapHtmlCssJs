@@ -723,11 +723,11 @@ main {
 .blog .pics_container .text_content a h4 {
     letter-spacing: 0rem;
     text-transform: uppercase;
-    /* font-size: 0.889rem; */
-    font-size: 2rem;
+    font-size: 0.889rem;
+    /* font-size: 2rem; */
     font-weight: 400;
     display: inline;
-    color: red;
+    /* color: red; */
 }
 
 /*BLOG  */
