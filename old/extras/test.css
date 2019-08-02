@@ -1,0 +1,128 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    box-sizing: border-box;
+    text-align: center;
+    /* color: black; */
+    width: 100%;
+    background-color: black;
+}
+
+/* START OF HEADER */
+
+header {
+    width: 100%;
+    background-image: url(../images/cover-northern-lights.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+header .header_section {
+    padding: 1.786rem 0rem;
+}
+
+header nav {
+    color: white;
+    /* width: 100%; */
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    width: 100%;
+}
+
+header nav ul li {
+    /* border: 1px solid blue; */
+    padding: 1rem 2rem;
+    margin: 0rem 1rem;
+}
+
+header nav ul li h4 {
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 0.071rem;
+    color: inherit;
+}
+
+header .marketing_search {
+    display: flex;
+}
+
+header .marketing_search .icon {
+    height: 1rem;
+    margin: 0rem 1.785rem;
+}
+
+.shoppingCart, .search {
+    fill: goldenrod;
+}
+
+.shoppingCart:hover, .search:hover {
+    fill: white;
+    cursor: pointer;
+}
+
+header .sub_text h6 {
+    color: white;
+    font-weight: 700;
+}
+
+header .button_rounded h6 {
+    font-weight: 700;
+    color: white;
+    padding: 2.428rem 1.642rem;
+    border: 0.143rem solid white;
+    /* border: 0.214rem solid goldenrod; */
+    border-radius: 50%;
+    display: inline-block;
+    /* margin: 0% 0% 4% 0%; */
+}
+
+header .button_rounded:hover h6 {
+    color: black;
+    background-color: white;
+}
+
+header .square {
+    border: 0.143rem solid white;
+    padding: 1.285rem;
+    position: absolute;
+    top: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 0.75rem;
+}
+
+header .left {
+    left: 5%;
+    background-image: url(../icons/chevron-left-white.svg);
+}
+
+header .right {
+    right: 5%;
+    background-image: url(../icons/chevron-right-white.svg);
+}
+
+header .square:hover {
+    background-color: grey;
+    opacity: 0.5;
+}

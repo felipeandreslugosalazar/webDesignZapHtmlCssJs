@@ -1,0 +1,73 @@
+/* 100	Thin (Hairline) */
+
+/* 200	Extra Light (Ultra Light) */
+
+/* 300	Light */
+
+/* 400	Normal */
+
+/* 500	Medium */
+
+/* 600	Semi Bold (Demi Bold) */
+
+/* 700	Bold */
+
+/* 800	Extra Bold (Ultra Bold) */
+
+/* 900	Black (Heavy) */
+
+/* junicode */
+
+@font-face {
+    /* junicode regular*/
+    font-family: "junicode";
+    src: url(./fonts/junicode-regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    /* junicode italic */
+    font-family: "junicode";
+    src: url(./fonts/junicode-italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    /* junicode bold italic */
+    font-family: "junicode";
+    src: url(./fonts/junicode-bold-italic.ttf );
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* trueno */
+
+@font-face {
+    font-family: "trueno";
+    src: url(./fonts/trueno-ultra-light.otf);
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "trueno";
+    src: url(./fonts/trueno-light.otf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "trueno";
+    src: url(./fonts/trueno-regular.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "trueno";
+    src: url(./fonts/trueno-bold.otf);
+    font-weight: 700;
+    font-style: normal;
+}
