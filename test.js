@@ -1,10 +1,10 @@
-// HEADER ENTER ALERT
+// HEADERER-ENTER-ALERT
 
 function enter_alert() {
   alert("Right now is not posible to enter, try later please.");
 }
 
-// CLIENTS PICS AND STATEMENT
+// CLIENTS-SECTION
 
 function client1() {
   document.getElementById("client_pic1").style.borderColor = "goldenrod";
@@ -70,16 +70,20 @@ function contentEditDeActivate() {
     "The notes field is not editable anymore. Try to change its text to see you can't";
 }
 
+// SMOOTH SCROLL AND ARROW BEHAVIOUR
+
+//this funcion forces the page to scroll up to the top
 function arrowUp() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
 
-// SMOOTH SCROLL AND ARROW BEHAVIOUR
+//
 window.onscroll = function() {
   scrollFunction();
 };
 
+//this function hides the arrow when it reaches certain point in the page
 function scrollFunction() {
   if (
     document.body.scrollTop > 200 ||
@@ -90,10 +94,12 @@ function scrollFunction() {
     document.getElementById("arrowUp").style.display = "none";
   }
 }
+
 //i would like to add a transition fadein/fade out for the arrowUp.
 //wip !
 
-// hamburger menu
+
+// hamburger menu - this is in WIP !!!
 function hamburger_menu(x) {
   // x.classList.toggle("change");
   openNav();
