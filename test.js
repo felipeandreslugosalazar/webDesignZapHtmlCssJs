@@ -1,4 +1,5 @@
 // HEADER ENTER ALERT
+
 function enter_alert() {
   alert("Right now is not posible to enter, try later please.");
 }
