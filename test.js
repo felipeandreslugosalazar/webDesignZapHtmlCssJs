@@ -95,17 +95,6 @@ function scrollFunction() {
   }
 }
 
-//i would like to add a transition fadein/fade out for the arrowUp.
-//wip !
-
-
-// hamburger menu - this is in WIP !!!
 function hamburger_menu(x) {
-  // x.classList.toggle("change");
-  openNav();
-}
-
-function openNav(x) {
-  document.getElementById("mobileNav").style.display = "block";
-  document.getElementById("hamburguer_menu").style.display = "none";
+  x.classList.toggle("change");
 }
