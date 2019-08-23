@@ -98,3 +98,12 @@ function scrollFunction() {
 function hamburger_menu(x) {
   x.classList.toggle("change");
 }
+
+//functions for hamburger_menu2
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}

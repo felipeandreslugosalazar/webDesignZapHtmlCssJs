@@ -147,7 +147,7 @@ section {
 .content {
     width: 75%;
     margin: 0rem auto;
-    /* border: 0.167rem dotted fuchsia; */
+    border: 0.167rem dotted fuchsia;
     position: relative;
 }
 
@@ -168,10 +168,70 @@ body {
     position: relative;
 }
 
+.hamburger_menu {
+    /* display: inline-block; */
+    display: none;
+    position: absolute;
+    left: 96.1%;
+    top: 0%;
+    z-index: 1;
+}
+
+.hamburger_menu_overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.hamburger_menu_overlay h4 {
+    padding: 50px 0px;
+    color: whitesmoke;
+}
+
+.hamburger_menu_overlay .overlay-content {
+    position: relative;
+    /* top: 24%; */
+    /* width: 100%; */
+    /* text-align: center; */
+    /* margin-top: 30px; */
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+/* 
+.hamburger_menu_overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+} */
+
+/* 
+.hamburger_menu_overlay a:hover, .hamburger_menu_overlay a:focus {
+    color: #f1f1f1;
+} */
+
+.hamburger_menu_overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
 /* START OF HEADER */
 
 header {
-    /* width: 100%; */
+    width: 100%;
     height: -webkit-fill-available;
     background-image: url(./images/header-background-1.jpg);
     background-repeat: no-repeat;
@@ -252,12 +312,6 @@ header .enter h6 {
     background-color: white;
     /* swith */
 }
-
-/* 
-header .enter:hover h6 {
-    color: black;
-    background-color: white;
-} */
 
 header .square {
     /* border: 0.111rem solid white; */
@@ -1481,6 +1535,10 @@ footer .icon:hover {
 
 /* EDITABLE HTML */
 
+.editable_html {
+    display: none;
+}
+
 .editable_html .text {
     margin: 40px 80px 0px 80px;
 }
@@ -1501,7 +1559,7 @@ footer .icon:hover {
 
 @media only screen and (min-width:769px) and (max-width:1024px) {
     h1, h2, h3, h4, h5, h6 {
-        color: green;
+        /* color: green; */
     }
     html {
         font-size: 14px;
@@ -1528,6 +1586,12 @@ footer .icon:hover {
         top: 0%;
         z-index: 1;
     }
+    .hamburger_menu_overlay .closebtn {
+        position: absolute;
+        top: -12px;
+        right: 33px;
+        font-size: 95px;
+    }
     .bar1, .bar2, .bar3 {
         width: 3.571rem;
         height: 0.357rem;
@@ -1536,16 +1600,30 @@ footer .icon:hover {
         transition: 0.4s;
     }
     .change .bar1 {
-        -webkit-transform: rotate(-45deg) translate(-0.786rem, 0.786rem);
-        transform: rotate(-45deg) translate(-0.786rem, 0.786rem);
+        /* -webkit-transform: rotate(-45deg) translate(-0.786rem, 0.786rem); */
+        /* transform: rotate(-45deg) translate(-0.786rem, 0.786rem); */
+        opacity: 0;
     }
     .change .bar2 {
         opacity: 0;
     }
     .change .bar3 {
-        -webkit-transform: rotate(45deg) translate(-0.714rem, -0.714rem);
-        transform: rotate(45deg) translate(-10.714rem 0px, -0.714rem);
+        /* -webkit-transform: rotate(45deg) translate(-0.714rem, -0.714rem); */
+        /* transform: rotate(45deg) translate(-10.714rem 0px, -0.714rem); */
+        opacity: 0;
     }
+    .hamburger_menu {
+        display: inline-block;
+        position: absolute;
+        left: 90%;
+        top: 0%;
+        z-index: 1;
+    }
+    .hamburger_menu h4 {
+        font-size: 4.5rem;
+        color: whitesmoke;
+    }
+    /* /////////////////////////////////////////////////////////// */
     /* HEADER */
     header .sales_search .icon {
         height: 4rem;
@@ -2013,7 +2091,7 @@ footer .icon:hover {
         right: 5rem;
         height: 5rem;
     }
-    .display_none_test {
+    .editable_html {
         display: none;
     }
 }
