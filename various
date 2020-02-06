@@ -1,0 +1,114 @@
+  <header>
+
+        <!-- HAMBURGER MENU MOBILE ONLY-->
+
+        <div class="content">
+       
+            <div class="section">
+
+                <nav>
+                    <img class="logo" src="./images/logo.png" alt="image-logo">
+
+                    <ul>
+                        <li>
+                            <h4>
+                                <a href="#welcome">
+                                    welcome
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#ourWorks">
+                                    portfolio
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#whyChooseUs">
+                                    why us
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#team">
+                                    team
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#clients">
+                                    clients
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#blog">
+                                    blog
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#pricing">
+                                    plans
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#getInTouch">
+                                    get in touch
+                                </a>
+                            </h4>
+                        </li>
+                    </ul>
+
+                    <div class="sales_search">
+                        <svg class="icon " viewBox="0 0 576 512">
+                            <path
+                                d="M528.1,301.3l47.3-208A24,24,0,0,0,552,64H159.2L150,19.2A23.9,23.9,0,0,0,126.5,0H24A23.94,23.94,0,0,0,0,24V40A23.94,23.94,0,0,0,24,64H93.9l70.2,343.4a56,56,0,1,0,67.1,8.6H440.8a56,56,0,1,0,63.6-10.4l5.5-24.3A24,24,0,0,0,486.5,352H218.1l-6.5-32H504.7A24.06,24.06,0,0,0,528.1,301.3Z" />
+                        </svg>
+
+                        <svg class="icon " viewBox="0 0 512 512">
+                            <path d="M505,442.7L405.3,343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3,44-79.7,44-128C416,93.1,322.9,0,208,0S0,93.1,0,208                                        s93.1,208,208,208c48.3,0,92.7-16.4,128-44v16.3c0,6.4,2.5,12.5,7,17l99.7,99.7c9.4,9.4,24.6,9.4,33.9,0l28.3-28.3
+                        C514.3,467.3,514.3,452.1,505,442.7z M208,336c-70.7,0-128-57.2-128-128c0-70.7,57.2-128,128-128c70.7,0,128,57.2,128,128
+                                           C336,278.7,278.8,336,208,336z" />
+                        </svg>
+
+                    </div>
+
+                </nav>
+
+            </div>
+
+            <div class="section">
+                <h2>We deliver</h2>
+                <h1>Excellence</h1>
+            </div>
+
+            <div class="section sub_text">
+                <h6>
+                    Creative Studio - Established in London (UK) since 1984
+                </h6>
+            </div>
+
+            <div class="section">
+                <a href="" class="enter" onclick="enter_alert()">
+                    <h6>Enter</h6>
+                </a>
+            </div>
+
+            <div class="square left clickable">
+            </div>
+
+            <div class="square right clickable">
+            </div>
+
+        </div>
+
+    </header>

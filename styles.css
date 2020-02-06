@@ -1,0 +1,291 @@
+/* FONTS */
+
+/* 100	Thin (Hairline) */
+
+/* 200	Extra Light (Ultra Light) */
+
+/* 300	Light */
+
+/* 400	Normal */
+
+/* 500	Medium */
+
+/* 600	Semi Bold (Demi Bold) */
+
+/* 700	Bold */
+
+/* 800	Extra Bold (Ultra Bold) */
+
+/* 900	Black (Heavy) */
+
+/* junicode */
+
+@font-face {
+  /* junicode regular*/
+  font-family: "junicode regular";
+  src: url(./fonts/junicode-regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  /* junicode regular italic */
+  font-family: "junicode regular italic";
+  src: url(./fonts/junicode-italic.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  /* junicode bold italic */
+  font-family: "junicode bold italic";
+  src: url(./fonts/junicode-bold-italic.ttf);
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* trueno */
+
+@font-face {
+  /* trueno ultra-light regular*/
+  font-family: "trueno ultra-light regular";
+  src: url(./fonts/trueno-ultra-light.otf);
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  /* trueno light regular*/
+  font-family: "trueno light regular";
+  src: url(./fonts/trueno-light.otf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  /* trueno regular*/
+  font-family: "trueno regular";
+  src: url(./fonts/trueno-regular.otf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  /* trueno bold regular*/
+  font-family: "trueno bold normal";
+  src: url(./fonts/trueno-bold.otf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* resoution 1920 x 1080 */
+/* screen at 100% */
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  /* text-align: center; */
+  /* width: 100%; */
+  /* position: relative; */
+  height: 100%;
+}
+
+:root {
+}
+
+/* GENERAL SECTION AND CONTENT */
+
+header .content .section {
+  width: 100%;
+  /* padding: 3.571rem 0rem; */
+  /* padding: 0px 0rem; */
+  padding: 3.333rem 0rem;
+  /* padding: 2.333rem 0rem; */
+}
+
+.section1 {
+  padding: 3.333rem 0rem;
+}
+.section2 {
+  padding: 2.778rem 0rem;
+}
+.centered {
+  /* background-color: thistle; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* used only for visual limits representation */
+.border {
+  border: 0.055555556px dotted blue;
+}
+
+.content {
+  width: 75%;
+  /* margin: 0rem auto; */
+  border: 0.055555556px dotted blue;
+}
+
+/* HEADERS */
+
+h1 {
+  font-family: "trueno bold normal";
+  font-size: 9.286rem;
+}
+
+h2 {
+  font-family: "trueno bold normal";
+  font-size: 6.429rem;
+}
+
+h4 {
+  font-family: "trueno bold normal";
+  font-size: 2rem;
+}
+/* chnage h5 and h6 to have consistency */
+h5 {
+  font-family: "trueno ultra-light regular";
+  font-size: 0.889rem;
+}
+
+h6 {
+  font-family: "junicode regular italic";
+  font-size: 1.2786rem;
+}
+
+/* Pending ! !!! */
+p {
+  font-family: "trueno";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 2.286rem;
+  /* color: grey; */
+  text-align: justify;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+.clickable {
+  cursor: pointer;
+}
+
+/* LINKS */
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+/* HEADER */
+
+header {
+  width: 100%;
+  min-height: 100%;
+  background-image: url(./images/headerBackground1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  padding: 0rem 1.428rem;
+}
+
+header h5 {
+  letter-spacing: 0.112rem;
+  text-transform: uppercase;
+  padding: 1rem 0px;
+  border-bottom: 0.083rem dotted transparent;
+}
+header h5:hover {
+  border-bottom: 0.083rem solid goldenrod;
+}
+
+header .ShoppinCartSearch {
+  display: flex;
+  flex-direction: row;
+}
+
+header .ShoppinCartSearch .icon {
+  height: 1.223rem;
+  margin: 0rem 1.142rem;
+  fill: goldenrod;
+}
+
+header .ShoppinCartSearch .icon:hover {
+  fill: white;
+  cursor: pointer;
+}
+
+header .enter h6 {
+  color: black;
+  color: white;
+  padding: 2.444rem 1.778rem;
+  border: 0.143rem solid white;
+  border-radius: 50%;
+  display: inline;
+  background-color: black;
+  border: 3px solid white;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* opacity: 0.35; */
+}
+
+header .enter h6:hover {
+  color: black;
+  background-color: white;
+}
+
+header .square {
+  /* border: 0.111rem solid white; */
+  padding: 2.285rem;
+  position: absolute;
+  top: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2rem;
+}
+
+header .square:hover {
+  /* background-color: grey; */
+  opacity: 0.5;
+}
+
+header .left {
+  left: -10%;
+  background-image: url(./icons/chevronLeft.png);
+}
+
+header .right {
+  right: -10%;
+  background-image: url(./icons/chevronRight.png);
+}
