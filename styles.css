@@ -1,3 +1,11 @@
+.refe {
+  display: block;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: goldenrod;
+}
 /* FONTS */
 
 /* 100	Thin (Hairline) */
@@ -88,37 +96,24 @@ html {
 
 body {
   box-sizing: border-box;
-  /* text-align: center; */
-  /* width: 100%; */
+  text-align: center;
+  width: 100%;
   /* position: relative; */
   height: 100%;
 }
 
-:root {
-}
-
 /* GENERAL SECTION AND CONTENT */
 
-header .content .section {
-  width: 100%;
-  /* padding: 3.571rem 0rem; */
-  /* padding: 0px 0rem; */
-  padding: 3.333rem 0rem;
-  /* padding: 2.333rem 0rem; */
-}
-
-.section1 {
-  padding: 3.333rem 0rem;
-}
-.section2 {
-  padding: 2.778rem 0rem;
-}
 .centered {
   /* background-color: thistle; */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+section {
+  width: 100%;
+  padding: 3.571rem 0rem;
 }
 
 /* used only for visual limits representation */
@@ -128,8 +123,7 @@ header .content .section {
 
 .content {
   width: 75%;
-  /* margin: 0rem auto; */
-  border: 0.055555556px dotted blue;
+  margin: 0rem auto;
 }
 
 /* HEADERS */
@@ -147,27 +141,28 @@ h2 {
 h4 {
   font-family: "trueno bold normal";
   font-size: 2rem;
+  text-transform: uppercase;
 }
 /* chnage h5 and h6 to have consistency */
 h5 {
-  font-family: "trueno ultra-light regular";
-  font-size: 0.889rem;
-}
-
-h6 {
   font-family: "junicode regular italic";
   font-size: 1.2786rem;
 }
 
+h6 {
+  font-family: "trueno ultra-light regular";
+  font-size: 0.889rem;
+}
+
 /* Pending ! !!! */
 p {
-  font-family: "trueno";
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 200;
-  line-height: 2.286rem;
+  font-family: "trueno ultra-light regular";
+  /* font-size: 1rem; */
+  /* font-style: normal; */
+  /* font-weight: 200; */
+  /* line-height: 2.286rem; */
   /* color: grey; */
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 em {
@@ -189,7 +184,7 @@ a:active {
   text-decoration: none;
   color: inherit;
 }
-/* HEADER */
+/* START OF HEADER */
 
 header {
   width: 100%;
@@ -203,7 +198,12 @@ header {
   text-align: center;
   display: flex;
   flex-direction: column;
-  /* position: relative; */
+  position: relative;
+}
+
+.headerSection {
+  width: 100%;
+  padding: 3.333rem 0rem;
 }
 
 header nav {
@@ -221,13 +221,13 @@ header nav ul li {
   padding: 0rem 1.428rem;
 }
 
-header h5 {
+header h6 {
   letter-spacing: 0.112rem;
   text-transform: uppercase;
   padding: 1rem 0px;
   border-bottom: 0.083rem dotted transparent;
 }
-header h5:hover {
+header h6:hover {
   border-bottom: 0.083rem solid goldenrod;
 }
 
@@ -247,8 +247,7 @@ header .ShoppinCartSearch .icon:hover {
   cursor: pointer;
 }
 
-header .enter h6 {
-  color: black;
+header .enter h5 {
   color: white;
   padding: 2.444rem 1.778rem;
   border: 0.143rem solid white;
@@ -256,17 +255,17 @@ header .enter h6 {
   display: inline;
   background-color: black;
   border: 3px solid white;
+  /* only option for the transparent background? */
+  /* ... maybe the easiest */
   background-color: rgba(0, 0, 0, 0.6);
-  /* opacity: 0.35; */
 }
 
-header .enter h6:hover {
+header .enter h5:hover {
   color: black;
   background-color: white;
 }
 
 header .square {
-  /* border: 0.111rem solid white; */
   padding: 2.285rem;
   position: absolute;
   top: 50%;
@@ -281,11 +280,97 @@ header .square:hover {
 }
 
 header .left {
-  left: -10%;
+  left: 10%;
   background-image: url(./icons/chevronLeft.png);
 }
 
 header .right {
-  right: -10%;
+  right: 10%;
   background-image: url(./icons/chevronRight.png);
+}
+
+/* START OF MAIN */
+
+main {
+  position: relative;
+}
+
+/* START OF WELCOME TO THE ZAP - THE BEST SOLUTION FOR A CREATIVE WEBSITE */
+
+.welcome .content {
+  display: flex;
+  /* height: -webkit-fill-available; */
+}
+
+.welcome .content aside {
+  width: 30%;
+  height: 45rem;
+  margin: 0 auto;
+  background-image: url(./images/logoZapGreySideways.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.welcome .content article {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.welcome article p {
+  line-height: 2.286rem;
+  /* text-align: justify; */
+}
+
+.welcome article .info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome article .item {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.welcome article .item .icon {
+  height: 4.5rem;
+  width: 4.5rem;
+  border: 0.056rem solid goldenrod;
+  border-radius: 50%;
+  background-position: center;
+  background-size: auto 1.785rem;
+  background-repeat: no-repeat;
+}
+
+.welcome article .item .gem {
+  background-image: url(././icons/gem.png);
+}
+
+.welcome article .item .camera {
+  background-image: url(././icons/cameraRetro.png);
+}
+
+.welcome article .item .wand {
+  background-image: url(././icons/magicWand.png);
+}
+
+.welcome article .item .text h4 {
+  font-size: 1rem;
+}
+
+.button {
+  display: inline-flex;
+  letter-spacing: 0.214rem;
+  border: 0.056rem solid black;
+  padding: 0.789rem 0.486rem;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  color: white;
+  background-color: black;
 }
