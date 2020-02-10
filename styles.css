@@ -147,6 +147,7 @@ h4 {
 h5 {
   font-family: "junicode regular italic";
   font-size: 1.2786rem;
+  text-transform: capitalize;
 }
 
 h6 {
@@ -157,6 +158,7 @@ h6 {
 /* Pending ! !!! */
 p {
   font-family: "trueno ultra-light regular";
+  line-height: 2.286rem;
   /* font-size: 1rem; */
   /* font-style: normal; */
   /* font-weight: 200; */
@@ -271,7 +273,7 @@ header .square {
   top: 50%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 2rem;
+  background-size: 1.5rem;
 }
 
 header .square:hover {
@@ -295,7 +297,7 @@ main {
   position: relative;
 }
 
-/* START OF WELCOME TO THE ZAP - THE BEST SOLUTION FOR A CREATIVE WEBSITE */
+/* WELCOME  */
 
 .welcome .content {
   display: flex;
@@ -321,7 +323,7 @@ main {
   justify-content: space-between;
 }
 .welcome article p {
-  line-height: 2.286rem;
+  /* line-height: 2.286rem; */
   /* text-align: justify; */
 }
 
@@ -373,4 +375,215 @@ main {
 .button:hover {
   color: white;
   background-color: black;
+}
+
+/*TITLE SECTION */
+
+.titleSection {
+  width: 100%;
+  margin: 0rem auto 2.778rem auto;
+}
+.titleSection div {
+  padding: 0.444rem 0px;
+}
+
+.titleSection h5 {
+  font-size: 1.778rem;
+  text-transform: capitalize;
+}
+
+.titleSection .imgHammers {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.titleSection .imgHammers::before,
+.imgHammers::after {
+  display: inline-block;
+  height: 0.071rem;
+  content: " ";
+  background-color: #999;
+  width: 7.143rem;
+}
+
+.titleSection .imgHammers img {
+  display: inline-block;
+  margin: 0rem 1rem;
+}
+
+/* OUR WORKS */
+
+.ourWorks nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ourWorks nav ul li {
+  margin: 0rem 2rem 2rem 2rem;
+}
+
+.ourWorks nav h6 {
+  padding: 0rem 1rem;
+}
+
+/* OUR WORKS - PICS CONTAINER */
+
+.ourWorks .picsContainer {
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.ourWorks .picsContainer .pics {
+  width: 25%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ourWorks .picsContainer .pics img {
+  width: 100%;
+  height: 100%;
+}
+
+.ourWorks .picsContainer .pics .overlay {
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.ourWorks .picsContainer .pics .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  width: 100%;
+}
+
+.ourWorks .picsContainer .pics .text h5 {
+  text-transform: capitalize;
+  font-size: 1.429rem;
+  color: white;
+  margin: 0rem 0rem 1.5rem 0rem;
+}
+
+.ourWorks .picsContainer .pics .text h4 {
+  letter-spacing: 0.071rem;
+  font-size: 1.143rem;
+  color: white;
+}
+
+.ourWorks .picsContainer .pics:hover .overlay {
+  opacity: 1;
+}
+.ourWorks .picsContainer .pics:hover .text {
+  opacity: 1;
+}
+
+/* WHY CHOOSE US */
+
+.whyChooseUs .explanation {
+  display: flex;
+  flex-direction: row;
+  margin: 0rem 0rem 2.857rem 0rem;
+  /* border: 0.111rem dotted blue; */
+}
+
+.whyChooseUs .explanation article {
+  width: 70%;
+  margin: 0rem auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.whyChooseUs .explanation aside {
+  width: 30%;
+  background-image: url(./images/whychoose.png);
+  height: 24.444rem;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.whyChooseUs article h5 {
+  margin: 2.857rem 0rem 0rem 0rem;
+}
+
+.whyChooseUs .footer {
+  font-size: 0.714rem;
+  letter-spacing: 0.071rem;
+  /* margin: 0rem 0rem 1.429rem 0rem; */
+  width: 30%;
+}
+
+.whyChooseUs .footer::before {
+  display: block;
+  margin: 0rem 0rem 0.571rem 0rem;
+  height: 0.071rem;
+  content: " ";
+  background-color: #999;
+  /* width: 4.643rem; */
+  /* width: 25%; */
+  width: 100%;
+}
+
+.whyChooseUs .services {
+  margin: 0rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.whyChooseUs .items {
+  width: 30%;
+  margin: 1.111rem 0rem;
+  display: inline-flex;
+}
+
+.whyChooseUs .items img {
+  height: 2.5rem;
+  width: auto;
+  margin: 0rem 1.786rem 0rem 0rem;
+  display: inline-flex;
+  /* border: 0.048rem solid blue; */
+}
+
+whyChooseUs .items .content {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem auto 0rem auto;
+}
+
+.whyChooseUs .items h4 {
+  display: block;
+  text-align: left;
+  font-size: 1.238rem;
+  letter-spacing: 0.071rem;
+}
+
+.whyChooseUs .items p {
+  margin: 1rem 0rem 0rem 0rem;
+  line-height: 1.905rem;
+  text-align: left;
+}
+
+.whyChooseUs .services .first_child::after,
+.whyChooseUs .services .after::after {
+  display: block;
+  margin: 0rem 0rem 0.571rem 0rem;
+  height: 0.071rem;
+  content: " ";
+  background-color: #999;
+  width: 100%;
 }

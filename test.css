@@ -1734,6 +1734,7 @@ footer .icon:hover {
     text-transform: capitalize;
   }
   /* OUR WORKS  */
+  
   .ourWorks nav ul {
     display: flex;
     align-items: center;
@@ -1743,6 +1744,7 @@ footer .icon:hover {
     margin: 2rem 1rem;
     width: 85%;
   }
+
   .ourWorks .pics_container .pics {
     width: 100%;
   }
