@@ -627,3 +627,76 @@ whyChooseUs .items .content {
   background-color: goldenrod;
   width: 4rem;
 }
+
+/* MEET OUR TEAM */
+
+.meet .team {
+  padding: 0rem 0rem 1.905rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.meet .team_pic {
+  width: 30%;
+  height: auto;
+  position: relative;
+}
+
+.meet .team_pic img {
+  width: 100%;
+  height: 100%;
+  margin: 0rem auto;
+}
+
+.meet .team_pic .team_pic_text {
+  text-align: left;
+  position: absolute;
+  bottom: 3%;
+  left: 3%;
+}
+
+.meet .team_pic .team_pic_text:before {
+  display: block;
+  height: 0.048rem;
+  content: " ";
+  background-color: white;
+  width: 100%;
+}
+
+.meet .team_pic .team_pic_text h4 {
+  color: white;
+  font-size: 1rem;
+  margin: 0.476rem auto 0.444rem auto;
+  font-weight: 700;
+  letter-spacing: 0.095rem;
+}
+
+.meet .team_pic .team_pic_text h6 {
+  color: white;
+  font-size: 0.762rem;
+  letter-spacing: 0.095rem;
+  text-transform: uppercase;
+}
+
+.meet .extras {
+  display: flex;
+  flex-direction: row;
+}
+
+.meet .extras article {
+  width: 70%;
+  text-align: left;
+}
+
+.meet .extras article h4 {
+  padding: 0rem 0rem 1.19rem 0rem;
+}
+
+.meet .extras aside {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
