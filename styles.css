@@ -6,6 +6,10 @@
   z-index: 1;
   color: goldenrod;
 }
+
+:root {
+  --golden: goldenrod;
+}
 /* FONTS */
 
 /* 100	Thin (Hairline) */
@@ -586,4 +590,40 @@ whyChooseUs .items .content {
   content: " ";
   background-color: #999;
   width: 100%;
+}
+
+/* STADISTICS */
+
+.stads .content {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.stads {
+  background-color: #303030;
+}
+
+.stads .stad_item h4 {
+  font-size: 3.095rem;
+  margin: 1.905rem auto 0rem auto;
+  font-weight: 300;
+  letter-spacing: 0rem;
+  color: white;
+}
+
+.stads .stad_item h5 {
+  letter-spacing: 0.095rem;
+  text-transform: capitalize;
+  margin: 1.905rem auto 1.905rem auto;
+  color: white;
+}
+
+.stads .stad_item::after {
+  display: block;
+  margin: 1.905rem auto 1.905rem auto;
+  height: 0.143rem;
+  content: " ";
+  background-color: goldenrod;
+  width: 4rem;
 }
