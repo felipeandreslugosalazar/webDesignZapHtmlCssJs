@@ -93,7 +93,8 @@
 /* resoution 1920 x 1080 */
 /* screen at 100% */
 html {
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 12px;
   scroll-behavior: smooth;
   height: 100%;
 }
@@ -326,10 +327,10 @@ main {
   flex-direction: column;
   justify-content: space-between;
 }
-.welcome article p {
-  /* line-height: 2.286rem; */
-  /* text-align: justify; */
-}
+/* .welcome article p { */
+/* line-height: 2.286rem; */
+/* text-align: justify; */
+/* } */
 
 .welcome article .info {
   display: flex;
@@ -699,4 +700,89 @@ whyChooseUs .items .content {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+/* CLIENTS */
+
+.clients .picsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.clients .picClient {
+  height: 10rem;
+  width: 10rem;
+  border: 0.357rem solid white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0rem 1rem 1.786rem 1rem;
+  border-radius: 50%;
+}
+
+.clients .client1 {
+  background-image: url(./images/client1.png);
+}
+
+.clients .client2 {
+  background-image: url(./images/client2.png);
+  border-color: goldenrod;
+}
+
+.clients .client3 {
+  background-image: url(./images/client3.png);
+}
+
+.clients .clientComment {
+  margin: 0rem auto 2.143rem auto;
+}
+
+.clients .clientComment h5 {
+  line-height: 1.714rem;
+  display: inline-block;
+}
+.clients .clientContent .clientId {
+  margin: 0rem 0rem 1rem 0rem;
+}
+
+.clients .clientContent h4 {
+  font-size: 1.143rem;
+  margin: 0rem auto 0.5rem auto;
+  font-weight: 700;
+  letter-spacing: 0.111rem;
+}
+
+.triangleDeco {
+  display: inline-block;
+  margin: 0rem 0rem 1.286rem 0rem;
+}
+
+.triangleDeco::before,
+.triangleDeco::after {
+  display: inline-block;
+  margin: 0rem 0.714rem 0.786rem 0.714rem;
+  height: 0.071rem;
+  content: " ";
+  background-color: #999;
+  width: 10rem;
+}
+
+.circleDeco {
+  display: inline-block;
+  margin: 0rem 0.214rem;
+  height: 0.857rem;
+  width: 0.857rem;
+  content: " ";
+  background-color: #999;
+  border-radius: 50%;
+}
+
+.tostaoBackground {
+  background: goldenrod;
+}
+
+.tostaoColor,
+#tostaoColor {
+  color: goldenrod;
+  /* GoldenRod #DAA520 rgb(218, 165, 32) */
 }

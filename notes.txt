@@ -136,3 +136,21 @@
 
 
 
+  <div class="titleSection">
+                    <div>
+                        <h4>meet our team</h4>
+                    </div>
+                    <div class="imgHammers">
+                        <img src="./icons/hammers.png" alt="image-hammers">
+                    </div>
+                    <div>
+                        <h5>We are the ones who support you</h5>
+                    </div>
+                </div>
+
+
+
+                
+
+
+

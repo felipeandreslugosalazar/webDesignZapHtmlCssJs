@@ -763,12 +763,12 @@ main {
 
 /*  CLIENTS  */
 
-.clients .pics_container {
+.clients .picsContainer {
   display: flex;
   justify-content: center;
 }
 
-.clients .pic_client {
+.clients .picClient {
   height: 10rem;
   width: 10rem;
   border: 0.357rem solid white;
@@ -792,23 +792,23 @@ main {
   background-image: url(./images/client3.png);
 }
 
-.clients .client_comment {
+.clients .clientComment {
   margin: 0rem auto 2.143rem auto;
 }
 
-.clients .client_comment h6 {
+.clients .clientComment h6 {
   line-height: 1.714rem;
   display: inline-block;
 }
 
-.clients .client_content h4 {
+.clients .clientContent h4 {
   font-size: 1.143rem;
   margin: 0rem auto 0.5rem auto;
   font-weight: 700;
   letter-spacing: 0.111rem;
 }
 
-.clients .client_content .client_id h6 {
+.clients .clientContent .clientId h6 {
   font-size: 0.857rem;
   letter-spacing: 0.071rem;
   text-transform: uppercase;
@@ -1561,7 +1561,7 @@ footer .icon:hover {
   h4,
   h5,
   h6 {
-    /* color: green; */
+    color: green;
   }
   html {
     font-size: 14px;
@@ -1734,7 +1734,7 @@ footer .icon:hover {
     text-transform: capitalize;
   }
   /* OUR WORKS  */
-  
+
   .ourWorks nav ul {
     display: flex;
     align-items: center;
