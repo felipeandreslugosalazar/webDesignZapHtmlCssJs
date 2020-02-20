@@ -7,7 +7,7 @@ function enterAlert() {
 
 function client1() {
     document.getElementById("clientPic1").style.borderColor = "goldenrod";
-    document.getElementById("clientPic1").style.scale = "(0.8,0.8)";
+    // document.getElementById("clientPic1").style.scale = "(0.8,0.8)";
 
     document.getElementById("clientPic2").style.borderColor = "white";
     document.getElementById("clientPic3").style.borderColor = "white";

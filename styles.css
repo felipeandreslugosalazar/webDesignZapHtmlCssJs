@@ -9,6 +9,7 @@
 
 :root {
   --golden: goldenrod;
+  --grey: #999999;
 }
 /* FONTS */
 
@@ -724,6 +725,7 @@ whyChooseUs .items .content {
   background-image: url(./images/client1.png);
 }
 
+/* initial condition for golden border */
 .clients .client2 {
   background-image: url(./images/client2.png);
   border-color: goldenrod;
@@ -785,4 +787,39 @@ whyChooseUs .items .content {
 #tostaoColor {
   color: goldenrod;
   /* GoldenRod #DAA520 rgb(218, 165, 32) */
+}
+
+/* GET A QUOTE */
+.quote {
+  background-color: #303030;
+  padding: 1.5rem 0rem;
+}
+
+.quote .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.quote .button2 {
+  background-color: var(--golden);
+}
+
+.quote h5 {
+  font-size: 2rem;
+  letter-spacing: 0.048rem;
+  color: white;
+}
+
+.quote h4 {
+  padding: 1.667rem 1.111rem;
+  color: white;
+  border: 1px solid black;
+}
+.quote h4:hover {
+  color: var(--golden);
+  background-color: white;
+  border: none;
+  border: 1px solid white;
 }
