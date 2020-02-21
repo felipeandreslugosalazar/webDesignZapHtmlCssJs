@@ -1074,3 +1074,151 @@ whyChooseUs .items .content {
 .pricing table tr td h4:hover {
   color: white;
 }
+
+/* GET IN TOUCH */
+
+.getInTouch .contact {
+  background-image: url(./images/backalley1.jpg);
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.getInTouch .info {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.429rem 0rem 1.429rem 0rem;
+}
+
+.getInTouch .infoItem {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.444rem 0rem;
+}
+
+.getInTouch .infoItem .icon {
+  height: 4.5rem;
+  width: 4.5rem;
+  border: 0.214rem solid goldenrod;
+  border-radius: 50%;
+  background-position: center;
+  background-size: auto 1.785rem;
+  background-repeat: no-repeat;
+}
+
+.getInTouch .infoItem .mobile {
+  background-image: url(./icons/mobile.png);
+}
+
+.getInTouch .infoItem .mapMarker {
+  background-image: url(./icons/mapMarker.png);
+}
+
+.getInTouch .infoItem .envelope {
+  background-image: url(./icons/envelope.png);
+}
+
+.getInTouch .infoItem .text {
+  justify-content: space-evenly;
+  margin: 0rem 0rem 0rem 1.944rem;
+}
+
+.getInTouch .infoItem .text h5 {
+  color: white;
+  font-size: 1.143rem;
+  font-weight: 400;
+  padding: 0.071rem 0rem;
+  text-align: left;
+  letter-spacing: 0.071rem;
+}
+
+.getInTouch .data {
+  width: 100%;
+}
+
+.getInTouch .data .formItemContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.getInTouch .data .formItemContainer .formItem,
+.formItemB {
+  width: 32%;
+  max-width: 100%;
+  text-align: left;
+  padding: 2.778rem 0rem 2.5rem 0rem;
+}
+
+.getInTouch .data .formItemContainer .formItemB {
+  width: 100%;
+}
+
+.getInTouch .data h6 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.111rem;
+  font-weight: 700;
+}
+
+.getInTouch form {
+  position: relative;
+  padding: 0rem 0rem 1.667rem 0rem;
+}
+
+::placeholder {
+  color: whitesmoke;
+  opacity: 0.55;
+  font-style: italic;
+}
+
+.getInTouch .formItem input[type="text"],
+textarea {
+  width: 100%;
+  border-top: 0.048rem transparent;
+  border-left: 0.048rem transparent;
+  border-right: 0.048rem transparent;
+  border-bottom: 0.048rem solid #eaeaea;
+  background: transparent;
+  color: white;
+  font-family: "trueno";
+  font-size: 1.111rem;
+  font-weight: 100;
+  letter-spacing: 0.048rem;
+  line-height: 1.667rem;
+  padding: 1.111rem 0rem;
+  margin: 0.556rem 0rem;
+}
+
+.getInTouch .formItemB textarea {
+  height: 2.778rem;
+}
+
+.getInTouch input[type="submit"] {
+  font-size: 0.889rem;
+  font-weight: 100;
+  letter-spacing: 0.167rem;
+  font-style: normal;
+  text-transform: uppercase;
+  padding: 0.778rem 1.944rem;
+  border: 0.048rem solid whitesmoke;
+  color: black;
+  display: block;
+  background-color: white;
+  margin: 1.444rem 0rem;
+}
+
+.getInTouch input[type="submit"]:hover {
+  color: white;
+  background-color: black;
+}
+
+.getInTouch .buttonContainer   {
+  display: flex;
+  justify-content: flex-end;
+}
