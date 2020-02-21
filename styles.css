@@ -911,16 +911,12 @@ whyChooseUs .items .content {
 
 /* DECO */
 
-.right_triangle_deco {
+.triangleDecoRight {
   display: inline-block;
   border-top: 2.222rem solid transparent;
   border-bottom: 2.222rem solid transparent;
   border-left: 2.222rem solid transparent;
-  /* border-right: 2.222rem solid transparent; */
-  /* border-top: 2.222rem solid red; */
-  /* border-bottom: 2.222rem solid greenyellow; */
-  /* border-left: 2.222rem solid blue; */
-  border-right: 2.222rem solid purple;
+  /* border-right: 2.222rem solid purple; */
   border-right: 2.222rem solid #eaeaea;
   z-index: 1;
   position: absolute;
@@ -929,17 +925,13 @@ whyChooseUs .items .content {
   left: -7%;
 }
 
-.left_triangle_deco {
+.triangleDecoLeft {
   display: inline-block;
   border-top: 2.222rem solid transparent;
   border-bottom: 2.222rem solid transparent;
-  /* border-left: 2.222rem solid transparent; */
   border-right: 2.222rem solid transparent;
-  /* border-top: 2.222rem solid red; */
-  /* border-bottom: 2.222rem solid greenyellow; */
-  border-left: 2.222rem solid blue;
+  /* border-left: 2.222rem solid blue;  */
   border-left: 2.222rem solid #eaeaea;
-  /* border-right: 2.222rem solid purple; */
   z-index: 1;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -950,14 +942,10 @@ whyChooseUs .items .content {
 .up_triangle_deco {
   display: inline-block;
   border-top: 2.222rem solid transparent;
-  /* border-bottom: 2.222rem solid transparent; */
   border-left: 2.222rem solid transparent;
   border-right: 2.222rem solid transparent;
-  /* border-top: 2.222rem solid red; */
-  border-bottom: 2.222rem solid greenyellow;
+  /* border-bottom: 2.222rem solid greenyellow; */
   border-bottom: 2.222rem solid #eaeaea;
-  /* border-left: 2.222rem solid blue; */
-  /* border-right: 2.222rem solid purple; */
   z-index: 1;
   position: absolute;
   transform: rotate(1deg);
@@ -968,19 +956,121 @@ whyChooseUs .items .content {
 
 .down_triangle_deco {
   display: inline-block;
-  /* border-top: 2.222rem solid transparent; */
   border-bottom: 2.222rem solid transparent;
   border-left: 2.222rem solid transparent;
   border-right: 2.222rem solid transparent;
-  border-top: 2.222rem solid red;
+  /* border-top: 2.222rem solid red; */
   border-top: 2.222rem solid #eaeaea;
-  /* border-bottom: 2.222rem solid greenyellow; */
-  /* border-left: 2.222rem solid blue; */
-  /* border-right: 2.222rem solid purple; */
   z-index: 1;
   position: absolute;
   transform: rotate(1deg);
   transform: translate(-50%, -50%);
   top: 110%;
   left: 50%;
+}
+
+/* pricing main */
+
+.pricing .promo {
+  padding: 0rem 0rem 1.944rem 0rem;
+}
+
+.pricing .promo h4 {
+  /* font-size: 1.111rem; */
+  letter-spacing: 0.167rem;
+  display: inline-block;
+}
+
+.pricing .promo h5 {
+  display: inline-block;
+  padding: 0rem 0.278rem;
+}
+
+/* tables */
+
+.pricing .tablesContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pricing .tablesContainer div {
+  position: relative;
+}
+
+.pricing table {
+  width: 22%;
+  border: 0.048rem solid #eaeaea;
+  position: relative;
+}
+
+.pricing table h4 {
+  font-size: 1.25rem;
+  font-size: 1.25rem;
+  padding: 1rem 1rem;
+  color: black;
+}
+
+.pricing table h5 {
+  display: inline-block;
+}
+
+.pricing tr th {
+  border-bottom: 0.048rem solid #eaeaea;
+  letter-spacing: 0.167rem;
+  padding: 1.111rem 1.111rem;
+}
+
+.pricing tr td {
+  text-transform: capitalize;
+  padding: 1.222rem 1.944rem;
+  color: grey;
+}
+
+.pricing .check {
+  height: 1rem;
+  fill: goldenrod;
+}
+.pricing .amount {
+  display: flex;
+  justify-content: center;
+}
+
+.pricing .sign {
+  color: black;
+}
+
+.pricing .money {
+  color: black;
+  font-size: 2rem;
+}
+
+.pricing .time {
+  font-weight: 300;
+  color: black;
+  font-size: 1rem;
+  font-style: italic;
+  letter-spacing: 0.048rem;
+  padding: 1.222rem 0rem 0rem 0rem;
+}
+
+.pricing .button {
+  width: 65%;
+  display: table;
+  background-color: white;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0rem 0rem 0rem 0rem;
+  border: 0.048rem solid #eaeaea;
+}
+
+.pricing .button:hover {
+  background-color: black;
+  border: 1px solid black;
+}
+
+.pricing table tr td h4:hover {
+  color: white;
 }
