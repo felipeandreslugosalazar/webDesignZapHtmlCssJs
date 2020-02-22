@@ -1276,7 +1276,7 @@ textarea {
 .summary p {
   margin: 0px 0px 1.429rem 0px;
   font-size: 15px;
-  line-height: 30px;
+  line-height: 20px;
   text-align: left;
 }
 
@@ -1381,4 +1381,66 @@ textarea {
 
 .summary .instagram .pic:hover .overlay {
   opacity: 1;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #303030;
+}
+
+footer .content {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-evenly;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+footer .copyright {
+  width: 70%;
+}
+
+footer .social {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .icon {
+  height: 20px;
+  fill: grey;
+}
+
+footer .icon:hover {
+  fill: goldenrod;
+}
+
+/* ARROW UP */
+
+.arrowUp {
+  display: none;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  height: 2rem;
+  transition: 0.5s ease;
+}
+
+.arrowUp .arrow_background {
+  fill: goldenrod;
+}
+
+.arrowUp .arrow_shape {
+  fill: white;
+}
+
+.arrowUp:hover .arrow_background {
+  fill: transparent;
+}
+
+.arrowUp:hover .arrow_shape {
+  fill: goldenrod;
 }

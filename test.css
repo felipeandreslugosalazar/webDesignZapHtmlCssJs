@@ -768,7 +768,7 @@ main {
   justify-content: center;
 }
 
-.clients .picClient {
+.clients .piclient {
   height: 10rem;
   width: 10rem;
   border: 0.357rem solid white;
@@ -1051,7 +1051,7 @@ main {
   left: 50%;
 }
 
-/* pricing main */
+/* pricing */
 
 .pricing .promo {
   padding: 0rem 0rem 1.944rem 0rem;
@@ -1734,7 +1734,7 @@ footer .icon:hover {
     text-transform: capitalize;
   }
   /* OUR WORKS  */
-
+  
   .ourWorks nav ul {
     display: flex;
     align-items: center;

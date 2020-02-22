@@ -73,10 +73,10 @@ function Function_no() {
 
 // SMOOTH SCROLL AND ARROW BEHAVIOUR
 window.onscroll = function () {
-    scrollFunction();
+    arrow();
 };
 
-function scrollFunction() {
+function arrow() {
     if (
         document.body.scrollTop > 200 ||
         document.documentElement.scrollTop > 200
@@ -89,7 +89,7 @@ function scrollFunction() {
 //i would like to add a transition fadein/fade out for the arrowUp.
 //wip !
 
-function arrowUp() {
+function scrollUp() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
