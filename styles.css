@@ -91,11 +91,12 @@
   font-style: normal;
 }
 
+
+html {
 /* resoution 1920 x 1080 */
 /* screen at 100% */
-html {
-  /* font-size: 18px; */
-  font-size: 12px;
+  font-size: 18px;
+/*   font-size: 12px; */
   scroll-behavior: smooth;
   height: 100%;
 }
